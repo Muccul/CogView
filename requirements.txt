@@ -1,9 +1,0 @@
-torch
-deepspeed
-tqdm
-lmdb
-filelock
-sentencepiece
-numpy
-mpi4py
-tensorboardX==1.8

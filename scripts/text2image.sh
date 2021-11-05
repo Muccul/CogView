@@ -6,7 +6,7 @@
 # NHIDDEN=1024
 # NATT=16
 
-CHECKPOINT_PATH=pretrained/cogview/cogview-base
+CHECKPOINT_PATH=/f_hdata/G/tmp/cogview/cogview-base/
 NLAYERS=48
 NHIDDEN=2560
 NATT=40
@@ -35,7 +35,7 @@ MASTER_PORT=${MASTER_PORT} python generate_samples.py \
        --temperature $TEMP \
        --top_k $TOPK \
        --top_p $TOPP \
-       --img-tokenizer-path pretrained/vqvae/vqvae_hard_biggerset_011.pt \
+       --img-tokenizer-path /f_hdata/G/tmp/cogview/vqvae_hard_biggerset_011.pt \
        --query-window 64 \
        --key-window-times 4 \
        --num-pivot 256 \

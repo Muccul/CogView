@@ -44,7 +44,7 @@ MASTER_PORT=${MASTER_PORT} python generate_samples.py \
        --generation-task text2image \
        --input-source ./input.txt \
        --output-path /f_hdata/G/tmp/cogview/out0 \
-       --batch-size 4 \
+       --batch-size 60 \
        --max-inference-batch-size 4 \
        --device 0 \
        $@

@@ -43,10 +43,10 @@ MASTER_PORT=${MASTER_PORT} python generate_samples.py \
        --max-position-embeddings-finetune $MAXSEQLEN \
        --generation-task text2image \
        --input-source ./input.txt \
-       --output-path samples_text2image \
+       --output-path /f_hdata/G/tmp/cogview/tmp1 \
        --batch-size 4 \
        --max-inference-batch-size 4 \
-       --device 0 \
+       --device 1 \
        $@
 
 

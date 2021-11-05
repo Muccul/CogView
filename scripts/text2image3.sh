@@ -42,11 +42,11 @@ MASTER_PORT=${MASTER_PORT} python generate_samples.py \
        --is-sparse 0 \
        --max-position-embeddings-finetune $MAXSEQLEN \
        --generation-task text2image \
-       --input-source /f_hdata/G/tmp/cogview/input3.txt \
+       --input-source /f_hdata/G/tmp/cogview/inputs3.txt \
        --output-path /f_hdata/G/tmp/cogview/out3 \
        --batch-size 60 \
        --max-inference-batch-size 4 \
-       --device 1 \
+       --device 2 \
        $@
 
 
